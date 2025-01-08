@@ -1,5 +1,7 @@
+#include "random.h"
 #include <iostream>
 
-int main(int, char**){
-    std::cout << "Hello, from Prismia!\n";
+int main(int, char **) {
+  RandomClass obj;
+  obj.doSomething();
 }
